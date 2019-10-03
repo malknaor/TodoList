@@ -1,0 +1,18 @@
+.app-header {
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container .todo-icon {
+    src: url("../../assets/todo-list.svg");
+    height: 50px;
+    width: 50px;
+}
+
+.header-container h1 {
+    height: 80px;
+    width: auto;
+}
