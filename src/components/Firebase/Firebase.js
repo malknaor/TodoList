@@ -1,15 +1,19 @@
-import * as firebase from "firebase/app";
+import app from "firebase/app";
 import "firebase/analytics";
 import "firebase/auth";
 import "firebase/database";
+
 import firebaseConfig from './config';
+import FirebaseContext from './context';
+
 
 // Initialize Firebase
 class Firebase {
     constructor() {
-        firebase.initializeApp(firebaseConfig);
-        firebase.analytics();
+        app.initializeApp(firebaseConfig);
+        app.analytics();
     }
 }
 
 export default Firebase;
+export { FirebaseContext };

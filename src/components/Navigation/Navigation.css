@@ -1,0 +1,34 @@
+.navbar {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar .list {
+    display: flex;
+    list-style: none;
+}
+
+.navbar .list :last-child() {
+    margin-left: 20px;
+}
+
+.navbar .list .list-item {
+    display: inline-block;
+    margin: 0 5px 0 10px;
+}
+
+.navbar .list .list-item a:link,
+.navbar .list .list-item a:visited {
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    text-decoration-line: none;
+    transition: text-decoration-line 0.5s color 0.5s;
+}
+
+.navbar .list .list-item a:active,
+.navbar .list .list-item a:hover {
+    color: rgb(121, 66, 66);
+    font-size: 100%;
+    text-decoration-line: underline;
+}
