@@ -1,0 +1,64 @@
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup h1 {
+    display: block;
+    align-self: center;
+}
+
+.form-title {
+    display: flex;
+    align-self: center;
+}
+
+.general-form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.form-field {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.form-field .form-field-label {
+    display: block;
+}
+
+.form-field .form-field-input {
+    flex: 1;
+    display: block;
+}
+
+.form-error-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: aqua;
+    width: 100%;
+    padding: 0;
+}
+
+.form-error-list-item{
+    display: block;
+    color: rgb(230, 102, 102);
+}
+
+.form-btn-submit {
+    background-color: rgb(173, 24, 24);
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    align-self: center;
+}

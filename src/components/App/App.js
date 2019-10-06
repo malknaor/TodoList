@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Header from '../Header/Header';
 import LandingPage from '../Landing/LandingPage';
-import SignUpPage from '../SignUp/SignUpPage';
 import SignInPage from '../SignIn/SignInPage';
+import SignUpPage from '../SignUp/SignUpPage';
 import PasswordForgetPage from '../PasswordForget/PasswordForgetPage';
 import HomePage from '../Home/HomePage';
 import AccountPage from '../Account/AccountPage';
